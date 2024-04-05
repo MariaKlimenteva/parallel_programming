@@ -1,0 +1,2 @@
+mpic++ message_transmission_delay.cc -o delay
+mpiexec -n 2 ./delay
