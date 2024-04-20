@@ -1,0 +1,10 @@
+consistent_task:
+g++ -o consistent consistent.cc
+./consistent
+
+parallel_task:
+mpic++ -o parallel parallel.cc
+mpiexec -n 4 ./parallel
+
+Find difference between consistent.csv, parallel.csv:
+diff solution.csv solution_1.csv
