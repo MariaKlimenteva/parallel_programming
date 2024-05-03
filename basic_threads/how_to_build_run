@@ -1,0 +1,2 @@
+g++ -pthread hello.cpp -o hello_world
+./hello_world
